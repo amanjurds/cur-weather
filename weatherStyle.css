@@ -1,0 +1,45 @@
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container{
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.quickSearch ul{
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	margin-right: 25px;
+}
+.quickSearch ul li{
+	background: #fff;
+	margin: 10px;
+	cursor: pointer;
+	padding: 4px;
+	border: 1px solid lightgrey;
+	border-radius: 50px;
+}
+.quickSearch ul li:hover{
+	color: #fff;
+	background: grey;
+}
+
+.quickSearch{
+	margin: 0 auto;
+}
+.quickCity{
+	margin-top: 20px;
+}
+.addCity{
+	background-color: lightgrey;
+}
