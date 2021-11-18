@@ -74,3 +74,14 @@ quickSearch.addEventListener('click', (e) => {
         }
     }
 });
+
+const addCity = document.querySelector('.footer');
+
+addCity.addEventListener('submit', e => {
+    e.preventDefault();
+    const city = addCity.inputCity.value.trim();
+    addCity.reset();
+
+    const html = `<li>${city}</li>`;
+    quickSearch.innerHTML += html;
+})
