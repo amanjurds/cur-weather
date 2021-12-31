@@ -1,1 +1,0 @@
-API based Weather Application.

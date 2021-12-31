@@ -31,10 +31,8 @@ const updateUI = (data) => {
 
 
 cityForm.addEventListener('submit', e => {
-    //prevent default action
     e.preventDefault();
 
-    //get city value
     const city = cityForm.city.value.trim();
     cityForm.reset();
 
@@ -48,7 +46,6 @@ cityForm.addEventListener('submit', e => {
         card.classList.remove('d-none');
     }
 
-    //set local storage
     localStorage.setItem('city', city);
 });
 

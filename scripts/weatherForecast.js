@@ -1,4 +1,4 @@
-
+const key = 'pqiFZij73jnwx6V3UdXSAO08aVQiWsMq';
 class Forecast{
     constructor(){
         this.key = key;
